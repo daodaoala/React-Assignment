@@ -1,0 +1,102 @@
+.menu {
+    width: 640px;
+    height: 40px;
+    margin: 27px 66px 22px 128px;
+    padding: 15px 70px 4px 310px;
+    border-radius: 8px;
+    background-color: #2b333d;
+}
+.menu ul {
+    display: inline;
+}
+img {
+    width: 24px;
+    height: 24px;
+    margin: 0 0 1px;
+    object-fit: contain;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.menu ul li{
+    float: left;
+    text-align: center;
+    display: inline;
+    padding:  0px 1px 0px 11px;
+}
+li{
+    list-style: none;
+} 
+hr{
+    height: 15px;
+    background-color: rgb(105, 111, 118);
+    border: 0px;
+    margin: 5px 0px 5px 0px;
+    opacity: 0.7;
+}
+
+
+.btn1{
+    background: url('asset/all_6.svg');
+}
+.btn1:hover{
+    background: url('asset/all_4.svg');
+}
+/* .btn1:active {
+    background-image: url('asset/all_2.svg');
+} */
+
+.btn2{
+    background-image: url('asset/all_5.svg');
+}
+.btn2:hover{
+    background-image: url('asset/all_3.svg');
+}
+.btn2:active {
+    background-image: url('asset/all.svg');
+}
+
+#btn3{
+    background-image: url('asset/icon-24-px-trash-black_3.svg');
+}
+#btn3:hover{
+    background-image: url('asset/icon-24-px-trash-black_2.svg');
+}
+#btn3:active {
+    background-image: url('asset/icon-24-px-trash-black.svg');
+}
+#btn4{
+    background-image: url('asset/icon-24-px-tag_3.svg');
+}
+#btn4:hover{
+    background-image: url('asset/icon-24-px-tag_2.svg');
+}
+#btn4:active {
+    background-image: url('asset/icon-24-px-tag.svg');
+}
+#btn5{
+    background-image: url('asset/icon-24-px-edit-gray_3d.svg');
+}
+#btn5:hover{
+    background-image: url('asset/icon-24-px-edit-gray_2h.svg');
+}
+#btn5:active {
+    background-image: url('asset/icon-24-px-edit-gray.svg');
+}
+#btn6{
+    background-image: url('asset/icon-24-px-alert_5d.svg');
+}
+#btn6:hover{
+    background-image: url('asset/icon-24-px-alert_3h.svg');
+}
+#btn6:active {
+    background-image: url('asset/icon-24-px-alert.svg');
+}
+#btn7{
+    background-image: url('asset/icon-24-px-alert_6d.svg');
+}
+#btn7:hover{
+    background-image: url('asset/icon-24-px-alert_4h.svg');
+}
+#btn7:active {
+    background-image: url('asset/icon-24-px-alert_2.svg');
+}

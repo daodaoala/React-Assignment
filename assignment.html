@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script> 
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> 
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    </head>
+    <body> 
+        <div id ="root"></div>
+        <script type="text/babel">
+        const Menu = () => {
+
+            const onClicked = (e) => {
+
+            };
+
+            return(
+                <form>
+                    <div className = "menu">
+                        <div className = "container">
+                            <ul>
+                                <li>
+                                    <img className ="btn1" src="asset/all_6.svg"  onClick = {onClicked} alt="" />                                   
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <hr width= "1px"/>
+                                </li>
+                                <li>
+                                    <img src="asset/all_5.svg" className ="btn2" alt=""/>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <hr width= "1px"/>
+                                </li>
+                                <li>       
+                                    <img src="asset/icon-24-px-trash-black_3.svg" id = "btn3" alt=""/>
+                                    <div></div>
+                                </li>    
+                                <li>
+                                    <hr width= "1px"/>
+                                </li>       
+                                <li>                           
+                                    <img src="asset/icon-24-px-tag_3.svg" id = "btn4" alt=""/>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <hr width= "1px"/>
+                                </li>
+                                <li>                                
+                                    <img src="asset/icon-24-px-edit-gray_3d.svg" id = "btn5" alt=""/>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <hr width= "1px" />
+                                </li>
+                                <li>                                  
+                                    <img src="asset/icon-24-px-alert_5d.svg" id = "btn6" alt="" />
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <hr width= "1px"/>
+                                </li>
+                                <li>                                 
+                                    <img src="asset/icon-24-px-alert_6d.svg" id = "btn7" alt="" />
+                                    <div></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            )
+        };
+        </script> 
+        <script type="text/babel">
+            ReactDOM.render(<Menu/>, document.getElementById('root'));
+        </script>          
+    </body>
+    
+</html>
